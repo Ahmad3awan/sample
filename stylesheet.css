@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+}
+li {
+  list-style: none;
+}
+
+.top-wrapper img {
+  width: 250px;
+  height: 250px;
+}
