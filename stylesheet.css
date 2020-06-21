@@ -1,12 +1,62 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  margin: 0;
-  font-family: "Arial";
+  font-family: "Arial Narrow";
 }
 li {
   list-style: none;
-}
 
-.top-wrapper img {
-  width: 250px;
-  height: 250px;
+}
+.bot-wrapper {
+  background-image: url(http://4.bp.blogspot.com/_ycO0qvHDawk/TKYm0yI1J4I/AAAAAAAADmE/FPcnrLiPyoo/s1600/-20071104_Fernwood+Walks_044.jpeg);
+  height: 100%;
+  background-size: cover;
+}
+.container{
+  background-color:rgba(70, 40, 2, 0.884);
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.contacts {
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+.title-contact h2 {
+  color:rgb(236, 162, 93);
+}
+.title-contact i {
+  color:white;
+  font-size: 30px;
+  margin: 0 5px;
+}
+.description-contact p {
+  color: white;
+  font-size: 14px;
+  height: 18px;
+  padding: 0;
+  margin: 2px 0;
+}
+.bold-txt {
+  font-weight: bold;
+}
+.form-section {
+  float: right;
+  width: 50%;
+}
+.form-section {
+  margin-top: 80px;
+  text-align: center;
+}
+input, textarea {
+  padding: 5px;
+  width: 50%;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.kirim {
+  background-color: rgb(236, 162, 93);
+  color: white;
 }
