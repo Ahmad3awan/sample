@@ -3,17 +3,74 @@
 }
 body {
   font-family: "Arial Narrow";
+  margin: 0;
 }
 li {
   list-style: none;
 
 }
+/*syamsul*/
+.kotak {
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+.lesson-wrapper {
+  height: 100%;
+  padding-bottom: 80px;
+  background-color: #ffefdb;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.heading h2 {
+  font-weight: bold;
+  color:#e17055;
+  font-size: 30px;
+}
+
+.lesson {
+  float: left;
+  width: 16%;
+  padding: 15px;
+}
+
+.lesson-icon {
+  opacity: 0.6;
+}
+
+.lesson-icon:hover {
+  opacity: 1.0;
+}
+
+.lesson-icon p {
+  font-weight: bold;
+  color: #e17055;
+}
+
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0;
+  opacity: 0.8;
+}
+.clear {
+  clear: left;
+}
+/*Ahmad*/
 .bot-wrapper {
   background-image: url(http://4.bp.blogspot.com/_ycO0qvHDawk/TKYm0yI1J4I/AAAAAAAADmE/FPcnrLiPyoo/s1600/-20071104_Fernwood+Walks_044.jpeg);
   height: 100%;
   background-size: cover;
 }
-.container{
+.filter {
   background-color:rgba(70, 40, 2, 0.884);
   padding-top: 20px;
   padding-bottom: 80px;
@@ -44,14 +101,12 @@ li {
 .form-section {
   float: right;
   width: 50%;
-}
-.form-section {
   margin-top: 80px;
   text-align: center;
 }
 input, textarea {
   padding: 5px;
-  width: 50%;
+  width: 75%;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -59,4 +114,176 @@ input, textarea {
 .kirim {
   background-color: rgb(236, 162, 93);
   color: white;
+}
+
+.icon-img {
+  width: 100px;
+  height:auto;
+}
+
+/*footer*/
+.footer {
+  padding: 5px 30px;
+  border-top: 1px solid #949494;
+  background-color: #ffefdb;
+  color: rgb(163, 161, 159);
+  opacity: 0.8;
+}
+
+.footer p{
+  font-size: 12px;
+}
+.left-foot {
+  float: left;
+}
+
+.right-foot {
+  float: right;
+}
+
+/*header*/
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 10;
+  padding: 0 80px;
+  background-color: #FFE4C4;
+  text-align: center;
+}
+
+.hide-btn {
+  color: #FF8C00;
+  opacity: 0.6;
+  font-size: 30px;
+  display: none;
+  position: relative;
+  top: 50px
+}
+
+.header-left {
+  margin: 0px 0px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 20px;
+}
+.header-left h1 {
+ color: #FF8C00;
+ margin: 5px 0 0 0;
+ font-weight: bold;
+ font-size: 25px;
+ font-style: italic;
+}
+.header-left p {
+  margin: 0 0 20px 0;
+  font-size: 10px;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.header-left img {
+  width: 100px;
+  height: auto;
+  padding: 0px 0px;
+  margin: 20px 0 0 0;
+}
+
+.header-mid {
+  float:left;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  top: 20px;
+  left: 200px;
+  width: 100%;
+  margin: 20px 0 20px 100px;
+}
+
+.header-mid2 {
+  transition: 0.5s;
+  width: 100%;
+  margin: 0 0 30px 100px;
+}
+
+.btn {
+  padding: 12px 12px;
+  color:#FF8C00;
+  opacity: 0.6;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.btn:active {
+  box-shadow:none;
+  position:relative;
+  top: 4px;
+}
+
+/*image*/
+.image-wrapper img {
+  height: auto;
+  width: 100%;
+  max-height: 600px;
+}
+
+/*TOP-WRAPPER*/
+.top-wrapper {
+  background-image: url(http://bgfons.com/uploads/bread/bread_texture1624.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.filter2 {
+  background-color: rgba(252, 246, 240, 0.753);
+  padding: 30px 0;
+}
+
+.title-top {
+  color: rgb(236, 162, 93);
+  width: 50%;
+  display: inline-block;
+}
+
+.title-top h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px 0 5px 0;
+}
+
+.title-top h3 {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.title-top p {
+  font-size: 15px;
+}
+
+.readmore {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 0px 5px;
+  border: 2px solid #e17055;
+  color: #e17055;
+  opacity: 0.6;
+  position: relative;
+}
+
+.readmore:hover {
+  opacity: 1.0;
+  cursor: pointer;
+}
+
+.readmore:active {
+  top: 5px;
 }

@@ -1,9 +1,48 @@
-@media (max-width: 670px) {
-.contacts {
-    width: 100%;
-        };
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
 
-.form-section {
-    width: 100%;
-      };
-};
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    }
+
+    .contacts {
+        width: 100%;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+
+    .header-mid{
+        display: none;
+    }
+
+    .header-mid2{
+        display: none;
+    }
+    
+    .header-left{
+        position: unset;
+    }
+
+    .hide-btn {
+        display: unset;
+    }
+  }
+  
