@@ -161,8 +161,9 @@ header {
   opacity: 0.6;
   font-size: 30px;
   display: none;
-  position: relative;
-  top: 50px
+  position: fixed;
+  top: 50px;
+  right: 20px;
 }
 
 .header-left {
@@ -170,7 +171,6 @@ header {
   width: 150px;
   text-align: center;
   display: inline-block;
-  float: left;
   position: absolute;
   left: 20px;
 }
@@ -236,54 +236,72 @@ header {
 }
 
 /*TOP-WRAPPER*/
-.top-wrapper {
-  background-image: url(http://bgfons.com/uploads/bread/bread_texture1624.jpg);
-  background-size: cover;
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.bton {
+  padding: 12px 24px;
+  color: #fff;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.bton:hover {
+  opacity: 1;
+}
+.row {
+    margin: 0;
+}
+
+.section-about-inner{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding-bottom: 80px;
+  height: 250px;
+}
+.about-wrapper {
   text-align: center;
-}
 
-.filter2 {
-  background-color: rgba(252, 246, 240, 0.753);
-  padding: 30px 0;
 }
-
-.title-top {
-  color: rgb(236, 162, 93);
-  width: 50%;
-  display: inline-block;
+.col-lg-3 {
+    float: left;
+    width: 30%;
+    margin: 0 60px; 
 }
-
-.title-top h1 {
-  font-size: 40px;
-  font-style: italic;
-  font-weight: bold;
-  margin: 20px 0 5px 0;
+.col-lg-4 img {
+  margin: 0 25px;
 }
-
-.title-top h3 {
-  font-size: 15px;
-  margin: 5px 0;
+.about-title {
+  border-right: 1px solid #ff8f00;
+  padding-right: 20px;
+  font-family: "nihlah", Arial, sans-serif;  
+  font-size: 60px;
+  color: #ff8f00;
+  font-size: 35px;
 }
-
-.title-top p {
-  font-size: 15px;
+.about-desc {
+  text-align: center;
+  margin-top: 15px;
 }
-
-.readmore {
-  display: inline-block;
-  padding: 5px;
-  border-radius: 0px 5px;
-  border: 2px solid #e17055;
-  color: #e17055;
-  opacity: 0.6;
-  position: relative;
+.about-desc p {
+  font-size: 14px;
+  color: #c26d00;
 }
-
-.readmore:hover {
-  opacity: 1.0;
-  cursor: pointer;
+.btn-about {
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid #ff8f00;
+  color: #ff8f00;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  border-radius: 5px;
 }
-
-.readmore:active {
-  top: 5px;
+.about-tagline {
+  font-size: 13px;
+  padding-left: 10px;
+  color: #ff8f00;
 }

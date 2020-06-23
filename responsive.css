@@ -33,16 +33,21 @@
         display: none;
     }
 
+    .header-left {
+      position: unset;
+      text-align: left;
+    }
+
     .header-mid2{
         display: none;
     }
     
-    .header-left{
-        position: unset;
-    }
-
     .hide-btn {
         display: unset;
+    }
+
+    .col-lg-4 {
+      display: none;
     }
   }
   
